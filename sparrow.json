@@ -1,0 +1,7 @@
+{
+    "version": "0.0.1",
+    "name" : "swat-raisin",
+    "description": "swat intergarion tests for Raisin - a REST API micro framework for Perl",
+    "url" : "https://github.com/melezhik/swat-raisin"
+}
+
