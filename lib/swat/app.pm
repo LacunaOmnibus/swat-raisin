@@ -21,7 +21,7 @@ sub start_app {
 
     my $cmd = "cd $project_root_dir; nohup carton exec 'plackup --host 0.0.0.0 --port $port' 2>/dev/null 1>/dev/null & echo -n \$! > $pid_file && touch $trd/run.ok";
 
-    note("try to run app as: $cmd");
+    # note("try to run app as: $cmd");
 
     system($cmd);
 
